@@ -17,8 +17,8 @@ class StatisticsServiceTest {
 
     assertEquals(expected, actual);
 
-    long[] incomesInBillionsDifferent = {10, 5, 8, 4, 5, 3, 8, 6, 11, 11, 12};
-    long actualDifferent = service.findMax(incomesInBillionsDifferent);
+    long[] incomesInBillionsOtherValue = {10, 5, 8, 4, 5, 3, 8, 6, 11, 11, 12};
+    long actualDifferent = service.findMax(incomesInBillionsOtherValue);
     assertEquals(expected, actualDifferent);
 
   }
